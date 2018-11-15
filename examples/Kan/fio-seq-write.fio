@@ -1,0 +1,15 @@
+; fio-seq-write.job for fiotest
+
+[global]
+name=fio-seq-write
+rw=write
+bs=256K
+direct=1
+numjobs=1
+filename=/dev/nvme0n1p4
+
+
+
+[file1]
+size=10G
+ioengine=sync
