@@ -1,0 +1,11 @@
+[global]
+name=fio-seq-reads
+filename=/dev/nvme0n1p4
+rw=randread
+bs=512
+direct=1
+numjobs=1
+
+[file1]
+size=500M
+ioengine=psync
