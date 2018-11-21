@@ -11,5 +11,5 @@ filename=/dev/nvme0n1p4
 
 
 [file1]
-size=10G
+size=200G
 ioengine=sync

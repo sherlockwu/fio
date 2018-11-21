@@ -1,0 +1,16 @@
+; fio-rand-read.job for fiotest
+
+[global]
+name=fio-rand-read
+filename=/dev/nvme0n1p4
+rw=randread
+bs=4K
+direct=1
+numjobs=4
+time_based=1
+runtime=30
+
+[file1]
+size=1G
+iodepth=32
+ioengine=libaio
