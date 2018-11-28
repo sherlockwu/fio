@@ -616,6 +616,7 @@ int generic_open_file(struct thread_data *td, struct fio_file *f)
 	int flags = 0;
 	int from_hash = 0;
 
+        //printf("====== Get here to open file  %s\n", f->file_name);
 	dprint(FD_FILE, "fd open %s\n", f->file_name);
 
 	if (!strcmp(f->file_name, "-")) {
