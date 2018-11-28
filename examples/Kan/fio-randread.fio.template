@@ -2,7 +2,7 @@
 
 [global]
 name=fio-rand-read
-filename=/dev/nvme0n1p4
+filename=/dev/nvme0n1
 rw=randread
 bs=4K
 direct=1
