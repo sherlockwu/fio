@@ -1,6 +1,6 @@
 [global]
 name=fio-seq-stride-reads
-filename=/dev/nvme0n1p4
+filename=/dev/nvme0n1
 rw=read:256K
 bs=512
 direct=1
