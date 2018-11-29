@@ -23,10 +23,10 @@ filename=/dev/nvme0n1
 
 [file1]
 stonewall
-bs=4k
-iodepth=1
+bs=16384
+iodepth=8
 numjobs=1
-rw=randread
+rw=read
 runtime=30
 ;write_bw_log=bw_rd_rnd_qd_1_4k_1w
 ;write_iops_log=iops_rd_rnd_qd_1_4k_1w
